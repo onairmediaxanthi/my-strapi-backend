@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "Διαφήμιση",
+        "Ερώτηση",
+        "Μέλος",
+        "Άλλο"
+      ]
+    },
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

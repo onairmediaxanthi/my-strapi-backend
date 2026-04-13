@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "radios",
+  "info": {
+    "singularName": "radio",
+    "pluralName": "radios",
+    "displayName": "Radio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "motto": {
+      "type": "string"
+    },
+    "streamURL": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
